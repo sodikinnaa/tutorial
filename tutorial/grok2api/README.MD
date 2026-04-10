@@ -18,6 +18,14 @@ Jalankan perintah berikut untuk mengunduh project:
 
 ```bash
 git clone git@github.com:sodikinnaa/grok2api.git
+```
+Jika gagal bisa pilih salah satu opsi di bawah ini 
+
+```bash
+git clone https://github.com/sodikinnaa/grok2api.git
+```
+
+```bash
 cd grok2api
 git checkout feat/release-1.0.0
 ```
