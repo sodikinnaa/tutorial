@@ -1,5 +1,7 @@
 # Panduan Menjalankan grok2api
 
+> Panduan menjalankan `grok2api` menggunakan Docker, Google Cloud Console atau VPS, lalu mempublikasikannya ke internet dengan ngrok.
+
 Panduan ini menjelaskan cara menjalankan `grok2api` dengan bantuan Google Cloud Console atau VPS pribadi.
 
 Proses ini memanfaatkan fitur dari Google Cloud Console:
@@ -62,3 +64,16 @@ Jika berhasil, ngrok akan memberikan URL publik yang bisa dibagikan.
 - Pastikan service berjalan normal sebelum menjalankan `ngrok`.
 - Jika port aplikasi bukan `8000`, sesuaikan perintah `ngrok http` dengan port yang digunakan.
 
+## 6. Cara Menggunakan grok2api
+
+1. Ambil cookie dari Grok seperti pada gambar berikut:
+
+   ![Ambil cookie Grok](images/Get_Cookies.png)
+
+2. Paste token pada kolom yang tersedia seperti pada gambar berikut:
+
+   ![Paste token](images/Paste-token.png)
+
+3. Generate bearer token untuk digunakan saat mengakses API seperti pada gambar berikut:
+
+   ![Generate bearer token](images/Get-token-api-key.png)
