@@ -7,6 +7,8 @@ Panduan ini menjelaskan cara menjalankan `grok2api` dengan bantuan Google Cloud 
 Proses ini memanfaatkan fitur dari Google Cloud Console:
 https://console.cloud.google.com
 
+<img width="75%" height="75%" alt="Kolom untuk paste token" src="./../images/Terminal-Cloud-Console.png" />
+
 Google Cloud Console menyediakan quota untuk mengakses terminal selama 50 jam per bulan.
 
 Jika kamu sudah memiliki VPS, langkah-langkah di bawah juga bisa langsung diterapkan di VPS masing-masing.
@@ -67,13 +69,12 @@ Jika berhasil, ngrok akan memberikan URL publik yang bisa dibagikan.
 ## 6. Cara Menggunakan grok2api
 
 1. Ambil cookie dari Grok seperti pada gambar berikut:
-
-   ![Ambil cookie Grok](images/Get_Cookies.png)
+<img width="75%" height="75%" alt="Halaman untuk mengambil cookie Grok" src="https://raw.githubusercontent.com/sodikinnaa/tutorial/refs/heads/main/tutorial/images/Get_Cookies.png" />
 
 2. Paste token pada kolom yang tersedia seperti pada gambar berikut:
-
-   ![Paste token](images/Paste-token.png)
+<img width="75%" height="75%" alt="Kolom untuk paste token" src="https://raw.githubusercontent.com/sodikinnaa/tutorial/refs/heads/main/tutorial/images/Paste-token.png" />
 
 3. Generate bearer token untuk digunakan saat mengakses API seperti pada gambar berikut:
+<img width="75%" height="75%" alt="Tampilan generate bearer token API" src="https://raw.githubusercontent.com/sodikinnaa/tutorial/refs/heads/main/tutorial/images/Get-token-api-key.png" />
 
-   ![Generate bearer token](images/Get-token-api-key.png)
+# 5. Penggunaan 
